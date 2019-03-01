@@ -4,14 +4,14 @@
 #hash = {:blake => 500, :ashley => 2, :adam => 1}
 
 def key_for_min_value(name_hash)
-  smallname = ""
+  smallname = "nil"
   smalley = 15
   name_hash.map do |name, value|
     if value < smalley
       smallname = name
 
     elsif name_hash == {}
-      smallname = "nil"
+      smallname 
 
     end
   end
