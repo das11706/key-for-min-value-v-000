@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
   name_hash.map do |name, value|
     if value < smalley
       smallname = name
-    elsif {name: value} == {} 
+    elsif name_hash == {} 
       smallname = nil
 
     end
