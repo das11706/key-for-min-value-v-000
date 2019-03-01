@@ -5,7 +5,7 @@
 
 def key_for_min_value(name_hash)
   smallname = nil
-  smalley = 20
+  smalley = 15
   name_hash.map do |name, value|
     if value < smalley
       smallname = name
