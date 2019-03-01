@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
     if value < smalley
       smallname = name
 
-    elsif value == {}
+    elsif value 
       smallname
 
     end
