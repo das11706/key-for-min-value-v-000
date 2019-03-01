@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
     if value < smalley
       smallname = name
     elsif name_hash = {}
-      no_name = nil
+      smallname = nil
 
     end
   end
