@@ -5,7 +5,7 @@
 
 def key_for_min_value(name_hash)
   smallname = ""
-  smalley = 2
+  smalley = 15
   name_hash.each do |name, value|
     if value < smalley
       smallname = name
@@ -13,6 +13,8 @@ def key_for_min_value(name_hash)
   end
   smallname
 end
+
+
 
 =begin
 winner = ""
