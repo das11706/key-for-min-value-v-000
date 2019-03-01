@@ -5,9 +5,9 @@
 
 def key_for_min_value(name_hash)
   smallname = nil
-  smalley = 15
+  smallval = 15
   name_hash.each do |name, value|
-    if value < smalley
+    if value < smallval
       smallname = name
     else
       smallname
